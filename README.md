@@ -1,7 +1,9 @@
 BASIC BANKING SYSTEM
+
 The Sparks Foundation Internship Project
 
 STACK USED:
+
 🚩Front-end : HTML, CSS, Javascript 
 
 🚩Back-end : PHP 
