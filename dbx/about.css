@@ -1,0 +1,264 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 5px 25px;
+  transition: 0.6s ease;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  font-size: 13px;
+}
+
+ul li a:hover {
+  background-color: aliceblue;
+  color: black;
+}
+
+.logo img {
+  float: left;
+  width: 130px;
+  height: auto;
+  margin-top: -25px;
+}
+
+.main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.heading h2 {
+  font-size: 20px;
+  font-style: bold;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  position: absolute;
+  top: 15%;
+  left: 7%;
+  opacity: 0.3;
+}
+
+.title h2 {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
+
+.title p {
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(196, 190, 190);
+  position: absolute;
+  top: 60%;
+  left: 59%;
+  transform: translate(-50%, -50%);
+}
+
+.button {
+  position: absolute;
+  top: 450px;
+  left: 650px;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  border: 1px solid white;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: 0.7s ease;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.layer {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.7s;
+}
+
+.layer:hover {
+  background: rgba(226, 0, 0, 0.7);
+}
+
+.layer h3 {
+  width: 100%;
+  color: white;
+  font-size: 26px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+
+.layer:hover h3 {
+  bottom: 49%;
+  opacity: 1;
+}
+
+.footer-dark {
+  padding: 50px 12px;
+  color: #f0f9ff;
+  background-color: #081018;
+}
+
+.footer-dark h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-dark ul {
+  padding: 0;
+  line-height: 3.2;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-dark ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity: 0.8;
+}
+
+.footer-dark .item.text {
+  margin-bottom: 36px;
+}
+
+.footer-dark .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+  text-align: center;
+}
+
+.footer-dark .item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.title {
+  height: 60vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("z.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+.title h2 {
+  font-size: 50px;
+  font-style: bold;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  position: absolute;
+  top: 25%;
+}
+
+.about-us {
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about-col {
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+
+.about-col img {
+  width: 100%;
+}
+
+.about-col h1 {
+  padding-top: 0;
+}
+
+.about-col p {
+  padding: 15px 0 25px;
+}
+
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  background: #050a30;
+  border: 1px solid #050a30;
+  color: #f44336;
+  padding: 12px 34px;
+  font-size: 15px;
+
+  cursor: pointer;
+  position: relative;
+  margin-top: 60px;
+  margin-left: 3px;
+}
+
+.hero-btn:hover {
+  border: 1px solid #f44336;
+  color: #f44336;
+  transition: 1s;
+  background: transparent;
+}
+
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
