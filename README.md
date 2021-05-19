@@ -29,3 +29,6 @@ Flow of the Website: Home Page > Customer Table(View all Users) > Select and Vie
 
 
 ![i4](https://user-images.githubusercontent.com/70466522/118843554-cced6c00-b8e7-11eb-9eaf-b911d21ce57f.png)
+
+
+![i5](https://user-images.githubusercontent.com/70466522/118844012-3b322e80-b8e8-11eb-8c71-2ccd5c0014d8.png)
